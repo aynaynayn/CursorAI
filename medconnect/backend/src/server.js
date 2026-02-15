@@ -20,6 +20,8 @@ const notificationRoutes = require('./routes/notificationRoutes');
 const adminRoutes = require('./routes/adminRoutes');
 
 const app = express();
+
+const app = require('./serverlessApp');
 const PORT = process.env.PORT || 5000;
 
 // Security middleware
